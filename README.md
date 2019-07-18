@@ -1,6 +1,8 @@
 ## 目录
 - [排序](https://github.com/wuzhuang5/algorithm)
-    - [三大基础排序](https://github.com/wuzhuang5/algorithm)
+    - [冒泡排序](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/sort/BubbleSort.java)
+    - [选择排序](https://github.com/wuzhuang5/algorithm)
+    - [插入排序](https://github.com/wuzhuang5/algorithm)
     - [快排](https://github.com/wuzhuang5/algorithm)
     - [归并排序](https://github.com/wuzhuang5/algorithm)
     - [堆排](https://github.com/wuzhuang5/algorithm)
