@@ -5,18 +5,20 @@ package com.wz.sort;
  * 选择排序
  */
 public class SelectionSort {
+
     public static void swap(int[] arr, int a, int b) {
         int tmp = arr[a];
         arr[a] = arr[b];
         arr[b] = tmp;
     }
+
     public static void selectionSort(int[] arr) {
         if(arr == null || arr.length < 2) {
             return;
         }
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = 0; i < arr.length; i++) {
             int min = i;
-            for (int j = i; j < arr.length - 1; j++) {
+            for (int j = i; j < arr.length; j++) {
                 min = arr[j] < arr[min] ? j : min;
             }
             swap(arr, i, min);
