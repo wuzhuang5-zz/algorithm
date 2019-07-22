@@ -7,5 +7,5 @@ public class QuickSort {
     public static void quickSort(int[] arr) {
 
     }
-    private static void partition()
+//    private static void partition()
 }
