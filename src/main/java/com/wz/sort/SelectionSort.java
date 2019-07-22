@@ -2,7 +2,7 @@ package com.wz.sort;
 
 /**
  *
- * 选择排序
+ * 选择排序  均时间复杂度 O(n*n)
  */
 public class SelectionSort {
 

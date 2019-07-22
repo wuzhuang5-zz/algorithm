@@ -1,7 +1,7 @@
 package com.wz.sort;
 
 /**
- * 冒泡排序
+ * 冒泡排序 平均时间复杂度 O(n*n)
  */
 public class BubbleSort {
     public static void swap(int[] arr, int a, int b) {

@@ -1,7 +1,7 @@
 package com.wz.sort;
 
 /**
- * 插入排序
+ * 插入排序 均时间复杂度 O(n*n)
  */
 public class InsertionSort {
 
