@@ -8,17 +8,30 @@ public class QuickSort {
         if(arr == null || arr.length < 2) {
             return;
         }
-        sort(arr, 0, arr.length-1);
+        split(arr, 0, arr.length-1);
     }
-    //递归重复partition操作
-    private static void sort(int[] arr, int l, int r) {
+
+    /**
+     * 递归重复partition操作  拆分
+     * @param arr
+     * @param l
+     * @param r
+     */
+    private static void split(int[] arr, int l, int r) {
         if(l < r) {
             int[] p = partition(arr, l, r);
-            sort(arr, l, p[0]-1);
-            sort(arr, p[1]+1, r);
+            split(arr, l, p[0]-1);
+            split(arr, p[1]+1, r);
         }
     }
-    //以less+1  more为中心左边小右边大
+
+    /**
+     * 以less+1  more为中心左边小右边大
+     * @param arr
+     * @param l
+     * @param r
+     * @return
+     */
     private static int[] partition(int[] arr, int l, int r) {
         int less = l - 1;
         int more = r;

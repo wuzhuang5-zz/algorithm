@@ -4,7 +4,7 @@
     - [选择排序](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/sort/SelectionSort.java)
     - [插入排序](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/sort/InsertionSort.java)
     - [快排](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/sort/QuickSort.java)
-    - [归并排序](https://github.com/wuzhuang5/algorithm)
+    - [归并排序](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/sort/MergeSort.java)
     - [堆排](https://github.com/wuzhuang5/algorithm)
     - [桶排](https://github.com/wuzhuang5/algorithm)
     - [基排](https://github.com/wuzhuang5/algorithm)
