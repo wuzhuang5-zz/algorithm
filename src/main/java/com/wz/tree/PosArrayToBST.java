@@ -1,4 +1,4 @@
-package com.wz.binarytree;
+package com.wz.tree;
 
 /**
  * 根据后序数组重建搜索二叉树

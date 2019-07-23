@@ -35,6 +35,7 @@
      - [合并K个排序链表](https://github.com/wuzhuang5/algorithm)
      - [环形单链表的约瑟夫问题](https://github.com/wuzhuang5/algorithm)
  - [树](https://github.com/wuzhuang5/algorithm)
+      - [遍历二叉树](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/tree/PreInPosTraversal.java)
       - [反转二叉树](https://github.com/wuzhuang5/algorithm)
       - [堆](https://github.com/wuzhuang5/algorithm)
       - [二叉树的最大深度](https://github.com/wuzhuang5/algorithm)

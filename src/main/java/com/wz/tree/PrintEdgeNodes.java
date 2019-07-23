@@ -1,4 +1,4 @@
-package com.wz.binarytree;
+package com.wz.tree;
 
 /**
  * 打印二叉树的边界结点

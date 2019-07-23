@@ -1,4 +1,4 @@
-package com.wz.binarytree;
+package com.wz.tree;
 
 /**
  * 二叉树的按层打印与ZigZag打印

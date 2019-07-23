@@ -1,4 +1,4 @@
-package com.wz.binarytree;
+package com.wz.tree;
 
 /**
  * 找到二叉树中符合搜索二叉树条件的最大拓扑结构
