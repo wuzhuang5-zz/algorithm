@@ -38,6 +38,7 @@ public class MergeSort {
         while (p2 <= r) {
             help[i++] = arr[p2++];
         }
+        //拷贝数组
         for (i = 0; i < help.length; i++) {
             arr[l+i] = help[i];
         }
