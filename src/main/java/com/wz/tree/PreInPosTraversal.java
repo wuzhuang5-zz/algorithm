@@ -7,7 +7,7 @@ import java.util.Stack;
  */
 public class PreInPosTraversal {
 
-    public static class Node {
+    static class Node {
         private Node left;
         private Node right;
         private int value;
@@ -103,7 +103,24 @@ public class PreInPosTraversal {
      * @param head
      */
     public static void posTraversal(Node head) {
-
+        if (head != null) {
+            Stack<Node> s1 = new Stack<>();
+            Stack<Node> s2 = new Stack<>();
+            s1.push(head);
+            while (!s1.isEmpty()) {
+                head = s1.pop();
+                s2.push(head);
+                if (head.left != null) {
+                    s1.push(head.left);
+                }
+                if (head.right != null) {
+                    s1.push(head.right);
+                }
+            }
+            while (!s2.isEmpty()) {
+                System.out.print(s2.pop().value);
+            }
+        }
     }
 
     public static void main(String[] args) {
@@ -114,6 +131,6 @@ public class PreInPosTraversal {
         head.left.right = new Node(5);
         head.right.left = new Node(2);
         head.right.right = new Node(7);
-        inTraversal(head);
+        posTraversalRecu(head);
     }
 }

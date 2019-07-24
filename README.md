@@ -42,7 +42,7 @@
       - [将有序数组转换为二叉搜索树](https://github.com/wuzhuang5/algorithm)
       - [二叉搜索树的最近公共祖先](https://github.com/wuzhuang5/algorithm)
       - [二叉搜索树结点最小距离](https://github.com/wuzhuang5/algorithm)
-      - [平衡二叉树](https://github.com/wuzhuang5/algorithm)
+      - [判断二叉树是否为平衡二叉树](https://github.com/wuzhuang5/algorithm)
       - [红黑树](https://github.com/wuzhuang5/algorithm)
       - [二叉树展开为链表](https://github.com/wuzhuang5/algorithm)
       - [序列化和反序列化二叉搜索树](https://github.com/wuzhuang5/algorithm)
