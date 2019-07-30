@@ -1,14 +1,11 @@
 package com.wz.tree;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Stack;
 
 /**
  * 判断一棵树是否为搜索二叉树和完全二叉树
  */
-public class IsBSTAndCBT {
+public class IsBST {
     static class TreeNode {
         private TreeNode left;
         private TreeNode right;
@@ -43,13 +40,6 @@ public class IsBSTAndCBT {
                 root = root.right;
             }
         }
-        return true;
-    }
-
-    public static boolean isBST2(TreeNode root) {
-        return true;
-    }
-    public static boolean isCBT(TreeNode root) {
         return true;
     }
 

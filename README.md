@@ -37,16 +37,17 @@
  - [树](https://github.com/wuzhuang5/algorithm)
       - [遍历二叉树](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/tree/PreInPosTraversal.java)
       - [翻转二叉树](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/tree/ReverseTree.java)
+      - [是否为二叉搜索树](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/tree/IsBST.java)
+      - [是否为完全二叉树](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/tree/IsCBT.java)
+      - [判断二叉树是否为平衡二叉树](https://github.com/wuzhuang5/algorithm)
       - [堆](https://github.com/wuzhuang5/algorithm)
       - [二叉树的最大深度](https://github.com/wuzhuang5/algorithm)
       - [将有序数组转换为二叉搜索树](https://github.com/wuzhuang5/algorithm)
       - [二叉搜索树的最近公共祖先](https://github.com/wuzhuang5/algorithm)
       - [二叉搜索树结点最小距离](https://github.com/wuzhuang5/algorithm)
-      - [判断二叉树是否为平衡二叉树](https://github.com/wuzhuang5/algorithm)
       - [红黑树](https://github.com/wuzhuang5/algorithm)
       - [二叉树展开为链表](https://github.com/wuzhuang5/algorithm)
       - [序列化和反序列化二叉搜索树](https://github.com/wuzhuang5/algorithm)
-      - [验证二叉搜索树](https://github.com/wuzhuang5/algorithm)
       - [B+树]()
  - [栈和队列](https://github.com/wuzhuang5/algorithm)
      - [用数组和链表实现栈和队列](https://github.com/wuzhuang5/algorithm)
@@ -103,4 +104,4 @@
       - [柠檬水找零](https://github.com/wuzhuang5/algorithm)
       - [拼车](https://github.com/wuzhuang5/algorithm)    
 ## 关于
-- 0.0   如有问题请加我微信: 17338105040
+- 0.0 
