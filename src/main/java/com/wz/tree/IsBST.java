@@ -3,7 +3,7 @@ package com.wz.tree;
 import java.util.Stack;
 
 /**
- * 判断一棵树是否为搜索二叉树和完全二叉树
+ * 判断一棵树是否为搜索二叉树
  */
 public class IsBST {
     static class TreeNode {
