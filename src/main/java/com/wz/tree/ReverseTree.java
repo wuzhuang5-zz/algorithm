@@ -26,8 +26,8 @@ public class ReverseTree {
         if (root == null) {
             return null;
         }
-        TreeNode right = reverseTree(root.right);
-        TreeNode left = reverseTree(root.left);
+        TreeNode right = reverseTreeRecu(root.right);
+        TreeNode left = reverseTreeRecu(root.left);
         root.left = right;
         root.right = left;
         return root;
