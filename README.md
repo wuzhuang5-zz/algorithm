@@ -16,6 +16,7 @@
     - [按奇偶排序数组](https://github.com/wuzhuang5/algorithm)
     - [求众数](https://github.com/wuzhuang5/algorithm)
     - [移动零](https://github.com/wuzhuang5/algorithm)
+    - [找到无序数组中最小的k个数](https://github.com/wuzhuang5/algorithm)
     - [数组中找到第K大的数](https://github.com/wuzhuang5/algorithm)
     - [买卖股票的最佳时机](https://github.com/wuzhuang5/algorithm)
     - [最小路径和](https://github.com/wuzhuang5/algorithm)
