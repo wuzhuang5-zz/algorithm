@@ -41,6 +41,8 @@
       - [是否为二叉搜索树](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/tree/IsBST.java)
       - [是否为平衡二叉树](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/tree/IsBalancedTree.java)
       - [堆](https://github.com/wuzhuang5/algorithm)
+      - [二叉树的右视图](https://github.com/wuzhuang5/algorithm)
+      - [二叉树的迭代器](https://github.com/wuzhuang5/algorithm)
       - [二叉树的最大深度](https://github.com/wuzhuang5/algorithm)
       - [将有序数组转换为二叉搜索树](https://github.com/wuzhuang5/algorithm)
       - [二叉搜索树的最近公共祖先](https://github.com/wuzhuang5/algorithm)
