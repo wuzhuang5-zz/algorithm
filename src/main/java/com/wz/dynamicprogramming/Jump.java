@@ -19,6 +19,6 @@ package com.wz.dynamicprogramming;
  * 输出: false
  * 解释: 无论怎样，你总会到达索引为 3 的位置。但该位置的最大跳跃长度是 0 ， 所以你永远不可能到达最后一个位置。
  */
-public class jump {
+public class Jump {
 
 }

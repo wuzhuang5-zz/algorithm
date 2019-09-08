@@ -94,6 +94,7 @@
      - [课程表](https://github.com/wuzhuang5/algorithm)
      - [网络延迟时间](https://github.com/wuzhuang5/algorithm)
  - [动态规划](https://github.com/wuzhuang5/algorithm)
+     - [跳跃游戏](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/dynamicprogramming/Jump.java)
      - [买卖股票的最佳时机](https://github.com/wuzhuang5/algorithm)
      - [最大子序和](https://github.com/wuzhuang5/algorithm)
      - [爬楼梯](https://github.com/wuzhuang5/algorithm)
