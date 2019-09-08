@@ -32,7 +32,7 @@
      - [删除链表中的重复元素](https://github.com/wuzhuang5/algorithm)
      - [有序链表转化二叉搜索树](https://github.com/wuzhuang5/algorithm)
      - [对链表进行插入排序](https://github.com/wuzhuang5/algorithm)
-     - [两数相加](https://github.com/wuzhuang5/algorithm)
+     - [两数相加](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/linkedList/AddTwoLinkedLists.java)
      - [删除链表的倒数第N个节点](https://github.com/wuzhuang5/algorithm)
      - [合并K个排序链表](https://github.com/wuzhuang5/algorithm)
      - [环形单链表的约瑟夫问题](https://github.com/wuzhuang5/algorithm)
