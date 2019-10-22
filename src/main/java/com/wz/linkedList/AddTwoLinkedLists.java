@@ -10,6 +10,6 @@ import org.w3c.dom.NodeList;
  */
 public class AddTwoLinkedLists {
     public ListNode addTwoLinkedList(NodeList l1, NodeList l2) {
-
+        return null;
     }
 }

@@ -5,9 +5,9 @@ package com.wz.linkedList;
  */
 public class ListNode {
 
-    public ListNode next;
+    ListNode next;
 
-    public int value;
+    int value;
 
     public ListNode(int value) {
         this.value = value;
