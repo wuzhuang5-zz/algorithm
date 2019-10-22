@@ -9,7 +9,7 @@ import org.w3c.dom.NodeList;
  * 原因：342 + 465 = 807
  */
 public class AddTwoLinkedLists {
-    public ListNode addTwoLinkedList(NodeList list1, NodeList list2) {
+    public ListNode addTwoLinkedList(NodeList l1, NodeList l2) {
 
     }
 }

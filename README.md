@@ -26,7 +26,7 @@
     - [常数时间插入、删除和获取随机元素](https://github.com/wuzhuang5/algorithm)
     - [寻找两个有序数组的中位数](https://github.com/wuzhuang5/algorithm)
  - [链表](https://github.com/wuzhuang5/algorithm)
-     - [反转链表](https://github.com/wuzhuang5/algorithm)
+     - [反转链表](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/linkedList/ReverseList.java)
      - [链表的中间结点](https://github.com/wuzhuang5/algorithm)
      - [合并两个有序链表](https://github.com/wuzhuang5/algorithm)
      - [删除链表中的重复元素](https://github.com/wuzhuang5/algorithm)
