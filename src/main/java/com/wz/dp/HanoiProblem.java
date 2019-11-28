@@ -1,4 +1,4 @@
-package com.wz.dynamicprogramming;
+package com.wz.dp;
 
 /**
  * 汉诺塔问题

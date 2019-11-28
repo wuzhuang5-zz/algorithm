@@ -1,4 +1,4 @@
-package com.wz.dynamicprogramming;
+package com.wz.dp;
 
 /**
  * 斐波那契数列

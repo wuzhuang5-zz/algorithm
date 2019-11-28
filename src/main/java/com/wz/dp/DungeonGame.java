@@ -1,4 +1,4 @@
-package com.wz.dynamicprogramming;
+package com.wz.dp;
 
 /**
  * 龙与地下城游戏问题
