@@ -46,7 +46,6 @@ public class MinPathTriangle {
         if (stash[x][y] != null) {
             return stash[x][y];
         }
-
         int left = reverse2(x + 1, y, triangle);
         int right = reverse2(x + 1, y + 1, triangle);
         stash[x][y] = Math.min(left, right) + triangle.get(x).get(y);
