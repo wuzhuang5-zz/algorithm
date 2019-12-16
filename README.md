@@ -74,7 +74,7 @@
       - [字符串的编码与解码](https://github.com/wuzhuang5/algorithm)
       - [迷你语法分析器](https://github.com/wuzhuang5/algorithm)
       - [最长重复子串](https://github.com/wuzhuang5/algorithm)
-      - [无重复字符的最长子串](https://github.com/wuzhuang5/algorithm)
+      - [无重复字符的最长子串](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/string/LengthOfLongestSubstring.java)
       - [最长回文子串](https://github.com/wuzhuang5/algorithm)
       - [验证ip地址](https://github.com/wuzhuang5/algorithm)
       - [字符串转换整数 ](https://github.com/wuzhuang5/algorithm)
