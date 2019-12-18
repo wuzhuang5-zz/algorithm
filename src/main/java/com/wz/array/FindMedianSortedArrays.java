@@ -19,10 +19,12 @@ public class FindMedianSortedArrays {
                 int i = (iMin + iMax) / 2;
                 int j = halfLen - i;
                 if (i < iMax && B[j-1] > A[i]){
-                    iMin = i + 1; // i is too small
+                    // i is too small
+                    iMin = i + 1;
                 }
                 else if (i > iMin && A[i-1] > B[j]) {
-                    iMax = i - 1; // i is too big
+                    // i is too big
+                    iMax = i - 1;
                 }
                 else { // i is perfect
                     int maxLeft = 0;
