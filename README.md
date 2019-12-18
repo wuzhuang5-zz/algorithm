@@ -24,7 +24,7 @@
     - [乘最多水的容器](https://github.com/wuzhuang5/algorithm)
     - [岛屿的最大面积](https://github.com/wuzhuang5/algorithm)
     - [常数时间插入、删除和获取随机元素](https://github.com/wuzhuang5/algorithm)
-    - [寻找两个有序数组的中位数](https://github.com/wuzhuang5/algorithm)
+    - [寻找两个有序数组的中位数](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/array/FindMedianSortedArrays.java)
  - [链表](https://github.com/wuzhuang5/algorithm)
      - [反转链表](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/linkedList/ReverseList.java)
      - [判断链表是否有环](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/linkedList/HasCycle.java)
