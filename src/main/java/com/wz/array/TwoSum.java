@@ -1,4 +1,4 @@
-package com.wz.other;
+package com.wz.array;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -26,3 +26,4 @@ public class TwoSum {
         System.out.println(result[1]);
     }
 }
+
