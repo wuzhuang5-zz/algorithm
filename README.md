@@ -104,9 +104,11 @@
      - [不同的二叉搜索树](https://github.com/wuzhuang5/algorithm)
      - [划分为k个相等的子集](https://github.com/wuzhuang5/algorithm)
      - [奇偶跳](https://github.com/wuzhuang5/algorithm)
- - [回溯算法](https://github.com/wuzhuang5/algorithm)
-     - [利用回溯算法求解八皇后问题](https://github.com/wuzhuang5/algorithm)
      - [0-1背包问题](https://github.com/wuzhuang5/algorithm)
+
+ - [回溯算法](https://github.com/wuzhuang5/algorithm)
+     - [电话号码的字母组合](https://github.com/wuzhuang5/algorithm/blob/master/src/main/java/com/wz/array/MaxSubArray.java)
+     - [利用回溯算法求解八皇后问题](https://github.com/wuzhuang5/algorithm)
   - [贪心算法](https://github.com/wuzhuang5/algorithm)
       - [柠檬水找零](https://github.com/wuzhuang5/algorithm)
       - [拼车](https://github.com/wuzhuang5/algorithm)    
