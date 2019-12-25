@@ -1,7 +1,5 @@
-package PACKAGE_NAME;
-
 /**
- * @Author: wz
+ * 堆排
  */
 public class HeapSort {
 }

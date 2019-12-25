@@ -1,7 +1,5 @@
-package PACKAGE_NAME;
-
 /**
- * @Author: wz
+ * 归并排序 O(logn)
  */
 public class MergeSort {
 }

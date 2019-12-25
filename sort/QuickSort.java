@@ -1,7 +1,6 @@
-package PACKAGE_NAME;
-
 /**
- * @Author: wz
+ * 快排  时间复杂度 O(logn)
  */
 public class QuickSort {
+
 }
