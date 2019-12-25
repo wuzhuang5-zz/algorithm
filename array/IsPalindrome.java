@@ -1,4 +1,3 @@
-package com.bytedance.array;
 
 import java.util.ArrayList;
 import java.util.List;

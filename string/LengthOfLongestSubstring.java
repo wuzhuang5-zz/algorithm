@@ -1,5 +1,3 @@
-package com.bytedance.string;
-
 import java.util.HashSet;
 import java.util.Set;
 

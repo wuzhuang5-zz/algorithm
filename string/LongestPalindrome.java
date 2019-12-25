@@ -1,5 +1,3 @@
-package com.bytedance.string;
-
 /**
  * leetcode 5
  * 最长回文子串

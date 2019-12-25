@@ -1,5 +1,3 @@
-package com.bytedance.listnode;
-
 /**
  * leetcode 2
  * 两个单链表生成相加链表

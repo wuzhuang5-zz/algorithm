@@ -1,5 +1,3 @@
-package com.bytedance.listnode;
-
 /**
  * leetcode 206
  * 反转链表

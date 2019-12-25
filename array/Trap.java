@@ -1,5 +1,3 @@
-package com.bytedance.array;
-
 /**
  * leetcode 43
  * 接雨水

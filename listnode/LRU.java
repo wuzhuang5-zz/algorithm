@@ -1,5 +1,3 @@
-package com.bytedance.listnode;
-
 /**
  * LRU缓存机制
  */

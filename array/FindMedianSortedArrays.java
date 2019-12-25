@@ -1,5 +1,3 @@
-package com.bytedance.array;
-
 /**
  * leetcode 4
  * 寻找两个有序数组的中位数
