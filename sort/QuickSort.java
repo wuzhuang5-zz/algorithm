@@ -1,5 +1,5 @@
 /**
- * 快排  时间复杂度 O(logn)
+ * 快排  时间复杂度 O(nlogn)
  */
 public class QuickSort {
 

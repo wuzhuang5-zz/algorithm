@@ -1,5 +1,5 @@
 /**
- * 归并排序 O(logn)
+ * 归并排序 O(nlogn)
  */
 public class MergeSort {
 }
