@@ -1,8 +1,7 @@
 /**
  * LRU缓存机制
  */
-public class LRU {
-
+public class LRUCache {
     /**
      * 双向链表
      */
@@ -14,5 +13,17 @@ public class LRU {
             this.key = key;
             this.val = val;
         }
+    }
+
+    public LRUCache(int capacity) {
+
+    }
+
+    public int get(int key) {
+        return 0;
+    }
+
+    public void put(int key, int value) {
+
     }
 }
