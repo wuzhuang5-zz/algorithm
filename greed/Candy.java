@@ -43,6 +43,7 @@ public class Candy {
     }
     // 用两个数组
     public static int candy2(int[] ratings) {
+
         return 0;
     }
 
