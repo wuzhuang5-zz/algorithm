@@ -15,5 +15,6 @@ public class MergeKLists {
         for (ListNode listNode : lists) {
 
         }
+        return null;
     }
 }
