@@ -40,7 +40,6 @@ public class MinStack {
             minStack.pop();
         }
     }
-
     public int top() {
         return stack.peek();
     }
