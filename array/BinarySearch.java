@@ -2,6 +2,7 @@
  * 二分法  时间复杂度 O(logn)
  */
 public class BinarySearch {
+
     public static int binarySearch(int[] nums, int fromIndex, int toIndex, int k) {
         int low = fromIndex;
         int high = toIndex;
