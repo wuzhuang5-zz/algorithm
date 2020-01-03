@@ -11,20 +11,24 @@ import java.util.Set;
  */
 public class LengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
-        if (s == null || s.length() < 1) {
-            return -1;
+        if(s == null || " ".equals(s) || s.length() == 1) {
+            return 1;
         }
-        char[] arr = s.toCharArray();
-        int result = 0;
+        char[] chars = s.toCharArray();
         Set<Character> set = new HashSet<>();
-        boolean flag = false;
-        for (int i = 0; i < arr.length; i++) {
-            if (set.contains(arr[i])) {
-                result = Math.max(result, set.size());
+        int tmp = 0;
+        int j = 0;
+        for (int i = 0; i < chars.length; i++) {
+            Boolean flag = set.contains(chars[i]);
+            if (flag == false) {
+                set.add(chars[i]);
+            } else {
+                tmp = set.size() > tmp ? set.size() : tmp;
                 set.clear();
+                i = j++;
             }
-            set.add(arr[i]);
         }
+        int result = tmp > set.size() ?tmp : set.size();
         return result;
     }
 
