@@ -4,11 +4,11 @@
 
 public class TreeNode {
 
-    private TreeNode left;
+    public TreeNode left;
 
-    private TreeNode right;
+    public TreeNode right;
 
-    private int value;
+    public int value;
 
     public TreeNode(int value) {
         this.value = value;
