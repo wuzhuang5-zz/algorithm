@@ -12,14 +12,14 @@ public class TopKFrequent {
     public static List<Integer> topKFrequent(int[] nums, int k) {
         Map<Integer, Integer> countMap = new HashMap<>();
         //统计每个数出现的频率   k->数  v->出现次数
-        for (int n : nums) {
-            countMap.put(n, countMap.getOrDefault(n, 0) + 1);
+        for (int item : nums) {
+            countMap.put(item, countMap.getOrDefault(item, 0) + 1);
         }
         //优先队列（堆）
         //keep k top frequent elements in the heap
         PriorityQueue<Integer> heap = new PriorityQueue<>(Comparator.comparingInt(countMap::get));
-        for (int n : countMap.keySet()) {
-            heap.add(n);
+        for (int key : countMap.keySet()) {
+            heap.add(key);
             if (heap.size() > k) {
                 heap.poll();
             }
