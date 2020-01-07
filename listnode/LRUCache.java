@@ -23,7 +23,7 @@ public class LRUCache {
     private DoubleList cache;
     private int capacity;
 
-    private LRUCache(int capacity) {
+    public LRUCache(int capacity) {
         this.capacity = capacity;
         this.cache = new DoubleList();
         this.map = new HashMap<>();
