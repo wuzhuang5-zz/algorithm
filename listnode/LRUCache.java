@@ -59,6 +59,10 @@ public class LRUCache {
             map.put(key, x);
         }
     }
+
+    /**
+     * 链表中节点
+     */
     class Node {
         private int key, value;
         private Node next;
@@ -69,6 +73,10 @@ public class LRUCache {
             this.value = v;
         }
     }
+
+    /**
+     * 双向链表
+     */
     class DoubleList {
         private Node head, tail;
         private int size;
