@@ -13,7 +13,7 @@ public class RemoveNthFromEnd {
         dummy.next = head;
         ListNode first = dummy;
         ListNode second = dummy;
-        for (int i = 1; i <= n + 1; i++) {
+        for (int i = 0; i <= n ; i++) {
             first = first.next;
         }
         while (first != null) {
