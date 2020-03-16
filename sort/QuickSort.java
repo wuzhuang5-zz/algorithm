@@ -13,7 +13,7 @@ public class QuickSort {
         if (l < r) {
             int[] p = partion(arr, l, r);
             quickSort(arr, l, p[0]);
-            quickSort(arr, p[0] + 1, r);
+            quickSort(arr, p[1], r);
         }
     }
 

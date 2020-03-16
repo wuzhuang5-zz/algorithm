@@ -25,6 +25,10 @@ public class MaxProfit {
         return max;
     }
 
+    public static void main(String[] args) {
+        int[] prices = new int[]{7, 1, 5, 3, 6, 4};
+        System.out.println(new MaxProfit().maxProfit1(prices));
+    }
     public int maxProfit2(int[] prices) {
         int minprice = Integer.MAX_VALUE;
         int maxprofit = 0;
