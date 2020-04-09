@@ -12,11 +12,11 @@
 public class AbstractBinarySearchTree {
 
     public static class Node {
-        public Integer value;
-        public Node parent;
-        public Node left;
-        public Node right;
-        public Node(Integer value, Node parent, Node left, Node right) {
+        private Integer value;
+        private Node parent;
+        private Node left;
+        private Node right;
+        private Node(Integer value, Node parent, Node left, Node right) {
             this.value = value;
             this.parent = parent;
             this.left = left;
@@ -25,7 +25,7 @@ public class AbstractBinarySearchTree {
     }
 
     //根节点
-    public Node root;
+    private Node root;
 
     //树节点数目
     protected int size;

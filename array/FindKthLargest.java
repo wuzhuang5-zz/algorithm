@@ -1,4 +1,5 @@
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.PriorityQueue;
 
 /**
@@ -11,10 +12,10 @@ import java.util.PriorityQueue;
  * 输出: 5
  */
 class FindKthLargest {
-    public int findKthLargest(int[] nums, int k) {
+    public static int findKthLargest(int[] nums, int k) {
         // init heap 'the smallest element first'
         PriorityQueue<Integer> heap =
-                new PriorityQueue<Integer>(Comparator.comparingInt(n -> n));
+                new PriorityQueue<>();
 
         // keep k largest elements in the heap
         for (int n: nums) {
@@ -24,5 +25,11 @@ class FindKthLargest {
             }
         }
         return heap.poll();
+    }
+
+    public static void main(String[] args) {
+        int[] nums = new int[]{2, 1, 5, 9, 11, 10, 8};
+        int result = findKthLargest(nums, 3);
+        System.out.println(result);
     }
 }

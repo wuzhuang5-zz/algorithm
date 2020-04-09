@@ -13,7 +13,8 @@
 public class FindNumberIn2DArray {
     public boolean findNumberIn2DArray(int[][] matrix, int target) {
         for (int i = 0; i < matrix.length; i++) {
-            matrix[i][0]
+//            matrix[i][0]
         }
+        return true;
     }
 }
