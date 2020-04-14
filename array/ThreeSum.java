@@ -13,6 +13,7 @@ import java.util.List;
  *   [-1, 0, 1],
  *   [-1, -1, 2]
  * ]
+ * 解决方案：排序+双指针
  */
 public class ThreeSum {
     public static List<List<Integer>> threeSum(int[] nums) {
