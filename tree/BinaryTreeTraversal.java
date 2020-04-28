@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Stack;
 
 /**
  * 二叉树遍历
@@ -57,4 +58,24 @@ public class BinaryTreeTraversal {
     }
 
     //--------------------------------迭代遍历--------------
+
+    public void preOrderIterate(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            System.out.println(root);
+            while (root != null) {
+                System.out.println(root.value);
+                stack.push(root);
+                root = root.left;
+            }
+            if (!stack.isEmpty()) {
+
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+
+    }
 }
