@@ -18,6 +18,7 @@ public class InvertTree {
     }
 
     public TreeNode invertTree2(TreeNode root) {
-        Queue
+//        Queue
+        return null;
     }
 }
