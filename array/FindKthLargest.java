@@ -13,9 +13,7 @@ import java.util.PriorityQueue;
  */
 class FindKthLargest {
     public static int findKthLargest(int[] nums, int k) {
-        // init heap 'the smallest element first'
-        PriorityQueue<Integer> heap =
-                new PriorityQueue<>();
+        PriorityQueue<Integer> heap = new PriorityQueue<>();
 
         // keep k largest elements in the heap
         for (int n: nums) {
